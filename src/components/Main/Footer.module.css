@@ -1,0 +1,202 @@
+.footer {
+  margin-top: 100px;
+  height: 522px;
+  
+  border-top: 1px solid #eee;
+}
+
+/*푸터 상단*/
+.footer_top {
+  width: 1050px;
+  height: 298px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+/*상단 - 왼쪽 (qna) */
+
+.qna {
+  float: left;
+  width: 530px;
+}
+
+.box {
+  padding-top: 16px;
+  
+}
+.box h2{
+  font-weight: 800;
+  width: 140px;
+  height: 31px;
+  font-size: 27px;
+  padding-top:3px;
+  margin-right: 16px;
+  float: left;
+}
+
+
+.box h3{
+  float: left;
+  width: 138px;
+  height: 40px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top:3px;
+  margin-right: 16px;
+}
+
+.qna_title {
+  font-size: 20px;
+  padding: 29px 0 2px;
+}
+
+.qna_box {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  color: #333;
+  padding-top: 7px;
+  font-size: 14px;
+}
+
+.box_dd {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #999;
+}
+
+
+.box_dt {
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+.box_span {
+  font-size: 14px;
+  margin-top: 3px;
+  line-height: 40px;
+  color: #999;
+}
+/*상단 - 오른쪽*/
+
+.company {
+  float: left;
+  width: 478px;
+  padding-top: 29px;
+  color: #999;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bar {
+  font-family: 'noto sans';
+  padding: 0 4px;
+}
+
+.link {
+  color: #5F0080;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.company_ul {
+  padding-bottom: 29px;
+  height: 20px;
+}
+
+.company_ul li {
+  margin-right: 8px;
+  font-weight: 600;
+  float: left;
+  color: #333;
+  font-size: 14px;
+}
+
+/*sns-list*/
+
+.sns_list {
+  padding-top: 45px;
+}
+
+.sns_list li {
+  float: left;
+  
+  margin-right: 10px;
+}
+
+.link_sns img {  
+  width: 30px;
+  height: 30px;
+
+}
+
+/*toss 어쩌구*/
+.footer_link {
+  margin: 0 auto;
+  width: 1050px;
+  height: 95px;
+}
+
+.footer_link_box {
+  height: 52px;
+  padding-top:20px;
+  padding-bottom: 24px;
+  border-top: 1px solid #eee;
+  letter-spacing: 0;
+}
+
+.mark {
+  float: left;
+  width: 267px;
+  text-decoration: none;
+}
+
+.logo {
+  margin-right: 10px;
+  float: left;
+  width: 34px;
+  height: 34px;
+}
+
+.logo_payment {
+  margin-right: 10px;
+  float: left;
+  width: 102px;
+  height: 34px;
+}
+
+.txt {
+  font-size: 10px;
+  color: #999;
+  padding-top: 1px;
+  line-height: 16px;
+  letter-spacing: -.5px;
+  white-space: nowrap;
+}
+
+
+/*가장 하단 오픈마켓 설명*/
+.footer_bottom {
+  height: 57px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 19px;
+  padding-bottom: 27px;
+}
+
+.footer_bottom p {
+  font-size: 10px;
+  line-height: 16px;
+  color: #999;
+  letter-spacing: -.5px;
+}
+
+.footer_bottom em {
+  font-style: normal;
+  font-size: 10px;;
+  color: #949296;
+  line-height: 25px;
+  letter-spacing: 0;
+}
