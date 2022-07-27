@@ -1,0 +1,86 @@
+/*상품 소개*/
+
+.products {
+  float: left;
+  padding: 0 9px;
+  margin-bottom: 30px;
+}
+
+.products img {
+  width: 338px;
+  height: 435px;
+}
+
+.product_info {
+  padding-top: 14px;
+  padding-right: 10px;
+}
+
+.price_tag > div {
+  float: left;
+}
+
+.sale {
+  color:#FA622F;
+  white-space: nowrap;
+  font-weight: 800;
+  font-size: 16px;
+  margin-right: 7px;
+}
+
+.sale_price {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.product_title {
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+
+.product_title a{
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+}
+
+.product_desc {
+  content: "";
+  display: block;
+  clear: both;
+
+  font-size: 13px;
+  color: #999;
+  padding-top: 11px;
+}
+
+.lists {
+  width: 1068px;
+}
+
+
+.user_sale {
+  font-size: 14px; 
+  
+  line-height: 30px;
+}
+
+.user_price {
+  font-size: 24px;
+  font-weight: 700;
+  word-break: break-all;
+
+}
+
+.sale {
+  color: #FA622F;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.origin_price {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #999;
+  padding-top: 7px;
+}

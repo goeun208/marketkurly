@@ -1,0 +1,336 @@
+
+.product_top {
+  width: 1050px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.cart_top {
+  font-size: 12px;
+  font-family: "noto sans";
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product_image {
+  width: 430px;
+  height: 552px;
+}
+
+.product_info {
+  width: 560px;
+}
+
+.goods_name {
+  padding: 10px 0 29px;
+}
+
+.goods1 {
+  position: relative;
+}
+
+.share_btn {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 520;
+  top:0;
+  right: 0;
+  bottom: 0;
+}
+
+.title {
+  width: 500px;
+  float: left;
+  font-size: 24px;
+  padding-right: 60px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.desc {
+  font-size: 14px;
+  padding: 4px 60px 0px 0px;
+  color: #999;
+}
+
+.user_sale {
+  font-size: 14px; 
+  
+  line-height: 30px;
+}
+
+.user_price {
+  font-size: 28px;
+  font-weight: 700;
+  word-break: break-all;
+
+}
+
+.sale {
+  color: #FA622F;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.origin_price {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #999;
+  padding-top: 7px;
+}
+
+.login_info {
+  font-size: 14px;
+  color: #5F0080;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.coupon_box {
+  width: 278px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid #5F0080;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.coupon_btn {
+  width: 100%;
+  line-height: 20px;
+  color: #5F0080;
+  text-decoration: none;
+}
+
+.coupon_btn::after {
+  content: ">";
+  color: #5F0080;
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+.product_table {
+  float: right;
+  width: 560px;
+  margin-top: 19px;
+  padding-bottom: 19px;
+  border-top: 1px solid #f4f4f4;
+}
+
+.product_table dl {
+  overflow: hidden;
+  padding: 18px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.product_table dt {
+  float: left;
+  width: 128px;
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+}
+
+.product_table dd {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+  word-break: break-all;
+}
+
+/*price*/
+.btn_quantity {
+  font-family: noto sans;
+  color: #333;
+  letter-spacing: 0;
+  padding: 18px 0;
+}
+
+.qbox {
+  height: 30px;
+}
+
+.qbox button {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+.qbox input {
+  width: 30px;
+  height: 28px;
+  border: none;
+}
+.total {
+  padding: 30px 0 20px;
+}
+
+.price_box{
+  text-align: right;
+  font-size: 13px;
+  color: #333;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: 2px;
+
+}
+
+.price_big {
+  padding-left: 8px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.price_small {
+  padding-left: 8px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.point_alrim {
+  display: inline-block;
+  width: 38px;
+  height: 20px;
+  margin-right: 2px;
+  border-radius: 10px;
+  background-color: #ffbf00;
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: 1px;
+}
+
+
+
+.point_txt {
+  text-align: right;
+  font-weight: 14px;
+  font-weight: 600;
+  padding-top:13px;
+}
+
+/*buttons*/
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  margin-bottom: 100px;
+}
+
+.pick_button {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: transparent!important;
+  background: url(https://res.kurly.com/pc/service/pick/btn-itemdetail-like.svg) no-repeat center;
+  background-size: 32px;
+  cursor: pointer;
+}
+
+.pick_button2 {
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: transparent!important;
+  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yNS44MDcgNy44NjNhNS43NzcgNS43NzcgMCAwIDAtOC4xNzIgMEwxNiA5LjQ5N2wtMS42MzUtMS42MzRhNS43NzkgNS43NzkgMCAxIDAtOC4xNzMgOC4xNzJsMS42MzQgMS42MzQgNy40NjYgNy40NjdhMSAxIDAgMCAwIDEuNDE1IDBzMCAwIDAgMGw3LjQ2Ni03LjQ2N2gwbDEuNjM0LTEuNjM0YTUuNzc3IDUuNzc3IDAgMCAwIDAtOC4xNzJ6IiBmaWxsPSIjRkY1QTVBIiBzdHJva2U9IiNGRjVBNUEiIHN0cm9rZS13aWR0aD0iMS42IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K) no-repeat center;
+  background-size: 32px;
+  cursor: pointer;
+}
+
+.alarm_button
+{
+  width: 56px;
+  height: 56px;
+  
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  color: transparent!important;
+  background: url(https://res.kurly.com/pc/service/goodsview/btn-itemdetail-restock-dim.svg) no-repeat center;
+  background-size: 32px;
+  cursor: pointer;
+}
+
+.cart_button {
+  width: 432px;
+  height: 56px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: #fff;
+  background-color: #5f0081;
+  border: 1px solid #5f0081;
+  cursor: pointer;
+}
+
+/*상세 보기*/
+.goods_view {
+  display: flex;
+  flex-direction: row;
+  width: 1010px;
+  margin: 0 auto;
+}
+
+.goods_view_info {
+  flex: 1;
+  position: relative;
+  top: 1px;
+  height: 60px;
+  line-height: 59px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-left: none;
+}
+
+.goods_view_info a {
+  text-decoration: none;
+  display: block;
+  color: #666;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -.3px;
+  font-family: noto sans;
+}
+
+
+.goods_info_box {
+  width: 1010px;
+  margin: 0 auto;
+
+}
+.pic {
+  margin-top: 100px;
+  width: 1010px;
+  height: 670px;
+}
+
+.title_design {
+  text-align: center;
+  font-size: 38px;
+  color: #666;
+  font-weight: 600;
+}
+
+.title_small {
+  margin: 75px auto 10px auto;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+  
+}
