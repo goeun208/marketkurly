@@ -1,6 +1,8 @@
 <h1>🎈마켓컬리 클론 코딩🛒</h1>
 <h3>- 메인 페이지, 제품 상세 페이지, 검색 페이지 구현<h3>
 <p>배포 url: https://goeun208.github.io/marketkurly/</p>
+  
+  
 ![image](https://user-images.githubusercontent.com/80875784/181919479-6b99b0d7-6fa6-4437-b367-6a79e472649e.png)
 
 ![image](https://user-images.githubusercontent.com/80875784/181919467-b91b71dc-4395-44e8-9309-8b9372f26e8c.png)
