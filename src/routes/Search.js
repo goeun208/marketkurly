@@ -11,6 +11,7 @@ function Search() {
 
   const keyword = location.state.keyword;
 
+
   useEffect(() => {
     console.log('검색 화면 나타남');
 
