@@ -11,7 +11,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Main />}></Route>
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<Main />}></Route>
           <Route path="/like" element={<MyLikeProduct />}></Route>
           <Route path="/product/:id" element={<ProductDetail />}></Route>
           <Route path="/search" element={<Search />}></Route>
